@@ -4,7 +4,7 @@ A Clock App made with Flutter
 Analgog and digital views, World time have been fully implemented.
 Alarms and timers have been partialy implemented.
 
-## Comming Soon
+## Coming Soon
 Fully functional alarms -add, delete,enable/disable
 Timer
 Settings - choose a spcific alarm sound
