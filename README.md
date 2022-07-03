@@ -10,9 +10,12 @@ Timer
 Settings - choose a spcific alarm sound
 ....
 
+
 ### Getting Started
 
 This project is a starting point for a Flutter application.
+
+design inspired by https://dribbble.com/shots/6738814-Clock-App-UI-screens
 
 A few resources to get you started if this is your first Flutter project:
 
