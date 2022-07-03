@@ -16,14 +16,12 @@ class AlarmPage extends StatefulWidget {
 class _AlarmPageState extends State<AlarmPage> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     Provider.of<Alarms>(context, listen: false).initAlarms();
   }
 
   @override
   void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
     super.didChangeDependencies();
     Provider.of<Alarms>(context, listen: false).initAlarms();
   }
