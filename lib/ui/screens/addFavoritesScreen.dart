@@ -39,7 +39,7 @@ class AddFavoritesScreen extends StatelessWidget {
                     margin: const EdgeInsets.only(bottom: 32),
                     padding: const EdgeInsets.all(12),
                     decoration: BoxDecoration(
-                        gradient: GradientColors.sunset,
+                        gradient: GradientColors.sky,
                         borderRadius: BorderRadius.circular(24),
                         boxShadow: [
                           BoxShadow(

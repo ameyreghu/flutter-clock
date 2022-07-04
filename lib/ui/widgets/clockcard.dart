@@ -70,10 +70,16 @@ class _ClockCardState extends State<ClockCard> {
       child: Row(children: [
         Column(
           children: [
+            SizedBox(
+              height: MediaQuery.of(context).size.height * 0.025,
+            ),
             txt(city, context),
-            const Icon(
-              Icons.cloud,
-              color: Color(0xFFEAECFF),
+            // const Icon(
+            //   Icons.cloud,
+            //   color: Color(0xFFEAECFF),
+            // )
+            SizedBox(
+              height: MediaQuery.of(context).size.height * 0.025,
             )
           ],
         ),
@@ -82,7 +88,7 @@ class _ClockCardState extends State<ClockCard> {
           children: [
             txt(timeStr, context),
             Text(dateStr,
-                style: Theme.of(context).textTheme.headlineSmall!.copyWith(
+                style: Theme.of(context).textTheme.bodyLarge!.copyWith(
                     fontWeight: FontWeight.normal,
                     color: const Color(0xFFEAECFF)))
           ],
@@ -93,7 +99,8 @@ class _ClockCardState extends State<ClockCard> {
 }
 
 Widget txt(String text, BuildContext context) {
-  return Text(text,
-      style: TextStyle(
-          fontSize: 28, fontWeight: FontWeight.w800, color: Color(0xFFEAECFF)));
+  return FittedBox(
+    fit: BoxFit.fitWidth,
+    child: Text(text, style: Theme.of(context).textTheme.headline6),
+  );
 }
