@@ -1,10 +1,21 @@
 # flutter_clock
 
 A Clock App made with Flutter
+Analgog and digital views, World time have been fully implemented.
+Alarms and timers have been partialy implemented.
 
-## Getting Started
+## Coming Soon
+Fully functional alarms -add, delete,enable/disable
+Timer
+Settings - choose a spcific alarm sound
+....
+
+
+### Getting Started
 
 This project is a starting point for a Flutter application.
+
+design inspired by https://dribbble.com/shots/6738814-Clock-App-UI-screens
 
 A few resources to get you started if this is your first Flutter project:
 
