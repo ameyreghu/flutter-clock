@@ -10,7 +10,7 @@ Widget buildNavigationBar(int _selectedIndex, Function fn) {
       child: NavigationBar(
         destinations: const [
           NavigationDestination(icon: Icon(Icons.timer), label: 'Clock'),
-          NavigationDestination(icon: Icon(Icons.alarm), label: 'Alarm'),
+         // NavigationDestination(icon: Icon(Icons.alarm), label: 'Alarm'),
           NavigationDestination(icon: Icon(Icons.timer_sharp), label: 'Timer'),
           NavigationDestination(icon: Icon(Icons.language), label: 'World'),
         ],

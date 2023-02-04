@@ -19,11 +19,11 @@ class _HomeScreenState extends State<HomeScreen> {
   final PageController _pageController = PageController();
   final List<Widget> _pages = const [
     ClockPage(),
-    AlarmPage(),
+   // AlarmPage(),
     TimerPage(),
     WorldClockPage(),
   ];
-  static const List<String> _titles = ['Clock', 'Alarm', 'Timer', 'World'];
+  static const List<String> _titles = ['Clock',  'Timer', 'World'];
 
   @override
   Widget build(BuildContext context) {
